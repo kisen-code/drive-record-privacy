@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サポート — 無限ドラレコ / Infinite Dashcam</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --surface: #1a1a1a;
+    --border: #2e2e2e;
+    --text: #e8e8e8;
+    --text-secondary: #999;
+    --accent: #e5484d;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI",
+                 "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    padding: 2rem 1rem 4rem;
+  }
+  .container { max-width: 720px; margin: 0 auto; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+  header h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem; }
+  header p { color: var(--text-secondary); font-size: 0.9rem; }
+  .lang-tag {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 0.1em 0.5em;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+  }
+  section { margin-bottom: 3rem; }
+  h2 { font-size: 1.15rem; font-weight: 700; margin: 2rem 0 1rem; color: var(--text); }
+  h2:first-of-type { margin-top: 0; }
+  h3 { font-size: 1rem; font-weight: 700; margin: 1.5rem 0 0.35rem; }
+  p { margin-bottom: 0.85rem; }
+  ul { padding-left: 1.25rem; }
+  ul li { margin-bottom: 0.5rem; }
+  strong { color: #fff; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  footer {
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f5f5f7;
+      --surface: #ffffff;
+      --border: #d1d1d6;
+      --text: #1c1c1e;
+      --text-secondary: #6e6e73;
+    }
+    strong { color: #000; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>サポート / Support</h1>
+    <p>無限ドラレコ（Infinite Dashcam） &nbsp;·&nbsp; Kisen &nbsp;·&nbsp; 最終更新 2026-09-12</p>
+  </header>
+
+  <section>
+    <span class="lang-tag">日本語</span>
+
+    <h2>お問い合わせ</h2>
+    <div class="card">
+      <p><strong>メール：<a href="mailto:faitagy@gmail.com">faitagy@gmail.com</a></strong></p>
+      <p>不具合のご報告・ご要望はこちらへお送りください。数日以内に返信します。</p>
+      <p>不具合の場合、次の情報を添えていただけると原因の特定が早くなります：端末モデル（例: iPhone 15）、iOS のバージョン、アプリのバージョン、症状と再現手順。</p>
+    </div>
+
+    <h2>動作環境</h2>
+    <ul>
+      <li>iOS 17.0 以降の iPhone / iPad</li>
+      <li>録画・衝撃検知には実機のカメラとモーションセンサーを使用します</li>
+    </ul>
+
+    <h2>よくある質問</h2>
+
+    <h3>画面を消した状態や、他のアプリを使っている間も録画されますか？</h3>
+    <p>いいえ。本アプリは<strong>フォアグラウンド専用</strong>で、バックグラウンド録画には対応していません。ホーム画面に戻る・他のアプリへ切り替えると録画は停止し、アプリに戻ると自動で再開します。走行中は端末をマウントし、アプリを表示したままご利用ください。画面の明かりが気になる場合は<strong>省電力モード</strong>（画面を真っ暗にしたまま録画を継続）をお使いください。</p>
+
+    <h3>音声も録音されますか？</h3>
+    <p>いいえ。本アプリは音声を記録せず、マイクの使用許可も要求しません。ナビや音楽の再生を妨げることもありません。</p>
+
+    <h3>録画した映像はどこに保存されますか？</h3>
+    <p>アプリ内のギャラリー（端末内のアプリ専用領域）に保存されます。外部サーバーへの送信は一切ありません。必要に応じて、ギャラリーから<strong>写真アプリへ任意でコピー</strong>できます（このときのみ「写真の追加」許可を求めます。既存の写真は読み取りません）。</p>
+
+    <h3>保存容量がいっぱいになったらどうなりますか？</h3>
+    <p>ギャラリーの上限（設定で 1GB / 3GB / 5GB から選択）に達すると、<strong>古いクリップから自動的に削除</strong>されます。残しておきたいクリップは写真アプリへコピーしてください。また端末自体の空き容量が少なくなると段階的に警告し、極端に不足した状態では保存を中止して通知します。</p>
+
+    <h3>衝撃検知で保存されるとき、確認が出ないのはなぜですか？</h3>
+    <p>運転中の操作を避けるため、衝撃検知による保存は<strong>確認なしで即座に</strong>実行します。反応の強さは設定の「衝撃感度」（弱い衝撃でも反応 〜 強い衝撃のみ）で調整でき、衝撃検知そのものをオフにもできます。</p>
+
+    <h3>端末が熱くなって録画が止まりました</h3>
+    <p>端末の保護のための動作です。高温になると自動的に画質・フレームレートを下げ、それでも温度が上がる場合は安全のため録画を停止して通知します。<strong>冷えると自動的に元の状態へ復帰</strong>します。長時間の使用では、直射日光を避け、風通しのよい場所にマウントしてください。充電しながらの使用は発熱が増える傾向があります。</p>
+
+    <h3>事故時に車のナンバーを判読できるようにしたい</h3>
+    <p>設定の「画質」「フレームレート」を高い側にしてください。低い設定は電力と容量を節約できますが、ナンバーの判読は難しくなります。設定画面にも注意書きを表示しています。</p>
+
+    <h3>クリップの長さは変えられますか？</h3>
+    <p>はい。設定で 30〜300 秒の範囲から選べます。保存操作を押した後に何秒ぶん録り続けるか（10〜30 秒）も選択できます。</p>
+
+    <h3>保存したクリップを削除したい / すべてのデータを消したい</h3>
+    <p>ギャラリーでスワイプして個別に削除、または「選択」から複数まとめて削除できます。アプリ本体を削除すると、保存されたクリップと設定はすべて端末から消去されます。</p>
+
+    <h3>運転中の利用について</h3>
+    <p><strong>走行中に端末を操作しないでください。</strong>操作は停車中に行い、走行中はマウントに固定した状態でご利用ください。視界を妨げない位置に設置してください。</p>
+
+    <h2>プライバシー</h2>
+    <p><a href="privacy-policy.html">プライバシーポリシー</a>をご覧ください。本アプリはデータを収集せず、映像は端末内に留まります。</p>
+  </section>
+
+  <section>
+    <span class="lang-tag">English</span>
+
+    <h2>Contact</h2>
+    <div class="card">
+      <p><strong>Email: <a href="mailto:faitagy@gmail.com">faitagy@gmail.com</a></strong></p>
+      <p>Please send bug reports and feature requests here. We usually reply within a few days.</p>
+      <p>For bug reports, including the following helps us find the cause faster: device model (e.g. iPhone 15), iOS version, app version, and what happened with steps to reproduce.</p>
+    </div>
+
+    <h2>Requirements</h2>
+    <ul>
+      <li>iPhone or iPad running iOS 17.0 or later</li>
+      <li>Recording and impact detection use the device's camera and motion sensors</li>
+    </ul>
+
+    <h2>Frequently asked questions</h2>
+
+    <h3>Does it record with the screen off or while I use another app?</h3>
+    <p>No. The app is <strong>foreground-only</strong> and does not support background recording. Recording stops when you leave the app and resumes automatically when you return. Mount your device and keep the app visible while driving. If the screen light bothers you, use <strong>power-saving mode</strong>, which blacks out the display while recording continues.</p>
+
+    <h3>Is audio recorded?</h3>
+    <p>No. The app never records audio and does not request microphone access. It also won't interrupt your music or navigation audio.</p>
+
+    <h3>Where is my footage stored?</h3>
+    <p>In the app's own gallery (a private area on your device). Nothing is ever uploaded to any server. You can optionally <strong>copy a saved clip to the Photos app</strong>, which is the only time add-only photo permission is requested. Your existing photos are never read.</p>
+
+    <h3>What happens when storage fills up?</h3>
+    <p>When the gallery reaches its limit (1GB / 3GB / 5GB, selectable in Settings), the <strong>oldest clips are deleted automatically</strong>. Copy anything you want to keep to the Photos app. The app also warns you in stages as the device itself runs low on space, and stops saving with a notification if space becomes critically short.</p>
+
+    <h3>Why is there no confirmation when impact detection saves a clip?</h3>
+    <p>To avoid requiring interaction while driving, impact-triggered saves happen <strong>immediately without confirmation</strong>. You can adjust how easily it triggers with the impact sensitivity setting, or turn impact detection off entirely.</p>
+
+    <h3>Recording stopped because my device got hot</h3>
+    <p>That is intentional thermal protection. The app automatically lowers quality and frame rate as the device heats up, and stops recording with a notification if temperature keeps rising. It <strong>recovers automatically once the device cools down</strong>. For long sessions, mount the device out of direct sunlight with good airflow; charging while recording tends to add heat.</p>
+
+    <h3>I want license plates to be readable in an incident</h3>
+    <p>Set video quality and frame rate to the higher options in Settings. Lower settings save power and storage but make plates hard to read; the settings screen notes this as well.</p>
+
+    <h3>Can I change the clip length?</h3>
+    <p>Yes — anywhere from 30 to 300 seconds, and you can also choose how long recording continues after you tap save (10–30 seconds).</p>
+
+    <h3>How do I delete clips or all my data?</h3>
+    <p>Swipe a clip in the gallery to delete it, or use the selection mode to delete several at once. Deleting the app removes all saved clips and settings from your device.</p>
+
+    <h3>Using the app while driving</h3>
+    <p><strong>Do not operate your device while driving.</strong> Make any adjustments while stopped, keep the device secured in a mount, and position it where it does not obstruct your view.</p>
+
+    <h2>Privacy</h2>
+    <p>See the <a href="privacy-policy.html">privacy policy</a>. The app collects no data, and your footage stays on your device.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Kisen. All rights reserved.</p>
+  </footer>
+
+</div>
+</body>
+</html>
